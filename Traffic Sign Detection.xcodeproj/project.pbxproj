@@ -22,6 +22,7 @@
 		6C78DEB825D1560A005F70AF /* temp-final.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "temp-final.mlmodel"; sourceTree = "<group>"; };
 		6CE3F31525D187A10027566C /* temp_final1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = temp_final1.mlmodel; sourceTree = "<group>"; };
 		7984D3D3A63BDFC4A07FEF8F /* SampleCode.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
+		B38251C52705697300B1684A /* log to arduino.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = "log to arduino.py"; sourceTree = "<group>"; };
 		C2A2AB60C2A2AB2000000001 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E3CB966204CD821C6969C2A3 /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		FAB417F52099308400494E9C /* VisionObjectRecognitionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisionObjectRecognitionViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +64,7 @@
 		FAD500921ED668B60074D713 = {
 			isa = PBXGroup;
 			children = (
+				B38251C52705697300B1684A /* log to arduino.py */,
 				C2A2AB60C2A2AB2000000001 /* README.md */,
 				FAD5009D1ED668B60074D713 /* Traffic Sign Detection */,
 				FAD5009C1ED668B60074D713 /* Products */,
@@ -325,7 +327,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6K9W452PU5;
-				INFOPLIST_FILE = BreakfastFinder/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Traffic Sign Detection/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "chrimp.tfsign-detection";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -343,7 +345,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6K9W452PU5;
-				INFOPLIST_FILE = BreakfastFinder/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Traffic Sign Detection/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "chrimp.tfsign-detection";
 				PRODUCT_NAME = "$(TARGET_NAME)";
